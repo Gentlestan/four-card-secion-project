@@ -1,15 +1,15 @@
-*,
-*::before,
-*::after {
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 body {
   margin: 0;
+  background: #fafafa;
 }
 main {
   width: 80%;
   margin: 0 auto;
-  background: #fafafa;
   color: 4D4F62;
 }
 header {
@@ -62,10 +62,14 @@ header p {
   flex-direction: column;
   width: 100%;
   max-width: 320px;
-  height: 250px;
-  padding: 1rem;
+
+  padding: 2rem;
   background-color: #fff;
+
   border-radius: 7px;
+}
+.card_img {
+  margin-top: 1em;
 }
 .card_1 {
   border-top: 2px solid #00c8c8;
@@ -116,5 +120,12 @@ header p {
   .poppinsextralight,
   .poppinssemibold {
     font-size: 1.5rem;
+  }
+
+  .card_3 {
+    order: 4; /* Move Karma to the last position */
+  }
+  .card_4 {
+    order: 3; /* Move Calculator to the third position */
   }
 }
