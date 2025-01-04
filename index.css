@@ -114,12 +114,13 @@ header p {
     align-items: center;
   }
   header p {
-    width: 80%;
+    width: 100%;
     text-align: left;
   }
   .poppinsextralight,
   .poppinssemibold {
     font-size: 1.5rem;
+    text-align: left;
   }
 
   .card_3 {
