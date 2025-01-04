@@ -51,7 +51,7 @@ header p {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 3em;
+  margin-top: 2em;
 }
 .card {
   background: #fff;
@@ -116,6 +116,7 @@ header p {
   header p {
     width: 100%;
     text-align: left;
+    margin-top: 0.5em;
   }
   .poppinsextralight,
   .poppinssemibold {
