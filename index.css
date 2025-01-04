@@ -14,6 +14,7 @@ main {
 }
 header {
   text-align: center;
+  margin-top: 1em;
 }
 h3 {
   font-family: "Poppins", serif;
@@ -120,7 +121,7 @@ header p {
   }
   .poppinsextralight,
   .poppinssemibold {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: left;
   }
 
